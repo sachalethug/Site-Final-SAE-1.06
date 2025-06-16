@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio SAE - Projets Académiques</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Portfolio SAE</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#contact" class="nav-link">A propos</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h2>Bienvenue dans mon Portfolio - Sacha Dzérahovic-Bonnetaud</h2>
+                <p>Pationné par le réseau et la maintenance de services</p>
+                <p>Découvrez mes 9 projets SAE réalisés durant cette année académique</p>
+                <a href="#projets" class="cta-button">Voir mes projets</a>
+            </div>
+            <div class="hero-animation">
+                <div class="floating-elements">
+                    <div class="element element-1"></div>
+                    <div class="element element-2"></div>
+                    <div class="element element-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="projects">
+            <div class="container">
+                <h2>Mes Projets SAE</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="1">
+                        <div class="project-header">
+                            <h3>SAE 1.01</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🔐</div>
+                            <h4>Hygiène Informatique & Cybersécurité</h4>
+                            <p>Découverte des machines du réseau et sensibilisation à la cybersécurité</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Réseau</span>
+                            <span class="tag">Sécurité</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(1)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="2">
+                        <div class="project-header">
+                            <h3>SAE 1.02</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">💻</div>
+                            <h4>Infrastructure Réseau</h4>
+                            <p>Mettre en place un réseau d'entreprise, mise en place d'un réseau</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Réseau</span>
+                            <span class="tag">Sécurité</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(2)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="3">
+                        <div class="project-header">
+                            <h3>SAE 1.03</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🛠️</div>
+                            <h4>Utilisation fibre optique et cuivre</h4>
+                            <p>Apprendre les concepts d'atténuation et les problèmes qu'ils engendrent</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Telecommunication</span>
+                            <span class="tag">Matériel</span>
+                            <span class="tag">Physique</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(3)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="4">
+                        <div class="project-header">
+                            <h3>SAE 1.04</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🌐</div>
+                            <h4>Développement web et déploiement de code</h4>
+                            <p>Développer un site à partir de language web</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">GitLab</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(4)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="5">
+                        <div class="project-header">
+                            <h3>SAE 1.05</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🌐</div>
+                            <h4>Site intéractif sur les pokémon</h4>
+                            <p>Programme / Site sur les statistique des pokémon</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">JSON</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(5)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="6">
+                        <div class="project-header">
+                            <h3>SAE 2.01</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🔧</div>
+                            <h4>Infrastructure Réseau V2</h4>
+                            <p>Mettre en place une instance Windows Server 2019 et y installer un ADDS</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Réseau</span>
+                            <span class="tag">Sécurité</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(6)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="7">
+                        <div class="project-header">
+                            <h3>SAE 2.02</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">📻</div>
+                            <h4>Fréquence radio FM</h4>
+                            <p>Etude et compréhension des ondes FM</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Physique</span>
+                            <span class="tag">FM</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(7)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="8">
+                        <div class="project-header">
+                            <h3>SAE 2.03</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">☀️</div>
+                            <h4>Site Weather App V2</h4>
+                            <p>Création d'une webapp pour la météo</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GitLab</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(8)">Voir le projet</button>
+                    </div>
+
+                    <div class="project-card" data-project="9">
+                        <div class="project-header">
+                            <h3>SAE 2.04</h3>
+                            <span class="project-status">Terminé</span>
+                        </div>
+                        <div class="project-preview">
+                            <div class="project-icon">🎯</div>
+                            <h4>Projet Intégratif de Semestre 2</h4>
+                            <p>Révision des acquis de cette première année de BUT</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Semetre 1</span>
+                            <span class="tag">Semetre 2</span>
+                            <span class="tag">Réseaux</span>
+                            <span class="tag">Télécommunication</span>
+                        </div>
+                        <button class="view-project" onclick="openProject(9)">Voir le projet</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section id="competences" class="skills">
+            <div class="container">
+                <h2>Compétences Acquises</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Techniques</h3>
+                        <ul>
+                            <li>Administration réseau</li>
+                            <li>Cybersécurité</li>
+                            <li>Systèmes Linux</li>
+                            <li>Systèmes Windows</li>
+                            <li>Outils logiciels</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Transversales</h3>
+                        <ul>
+                            <li>Recherche documentaire</li>
+                            <li>Présentation orale</li>
+                            <li>Rédaction technique</li>
+                            <li>Travail en équipe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="about">
+            <div class="container">
+                <h2>À propos</h2>
+                <div class="about-content">
+                    <div class="about-photo">
+                        <div class="photo-placeholder">
+                            <img id="profile-photo" src="" alt="Photo de profil" style="display: none;">
+                                <div class="profile-photo-container">
+                            <img id="profile-photo" src="/Document/profile.png" alt="Photo de profil - Sacha Dzérahovic-Bonnetaud">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Qui suis-je ?</h3>
+                        <p>Je suis <strong>Sacha Dzérahovic-Bonnetaud</strong>, actuellement en 1<sup>ère</sup> année de BUT Réseau et Télécommunication. J'aime par-dessus tout dans cette formation la configuration de services réseau comme sur Linux avec des instances web, virtualisation et sur Windows avec la mise en place d'ADDS, de OU et de partage de fichier ADGLP.</p>
+                        
+                        <p>De mon temps libre j'aime aider mes amis avec leurs petits projets de serveur perso et j'aime jouer aux jeux vidéo !</p>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🖥️</div>
+                                <h4>Passionné par le réseau</h4>
+                                <p>Configuration de services Linux et Windows</p>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🔧</div>
+                                <h4>Services & Virtualisation</h4>
+                                <p>Instances web, ADDS, partage de fichiers</p>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎮</div>
+                                <h4>Centres d'intérêt</h4>
+                                <p>Projets serveurs personnels et jeux vidéo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour afficher les détails des projets -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Le contenu sera injecté dynamiquement -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio Sacha Dzérahovic--Bonnetaud.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
