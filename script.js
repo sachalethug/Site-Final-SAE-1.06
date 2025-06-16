@@ -6,7 +6,7 @@ const projectsData = {
         apprentissage: "À partir d'un sujet prédéfini, créer une présentation sensibilisant à l'hygiène informatique et donc à la cybersécurité",
         sujet: "Découvrir les machines du réseau",
         acquis: "J'ai acquis des connaissances réseau sur des fondamentaux du fonctionnement d'un réseau local et des interactions entre ces machines, ainsi que certaines connaissances sur les failles basiques de sécurité qui exposent ces machines sur un réseau local avec une configuration trop basique.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/1.01/Partie_Découvrir_les_OS_des_machines_d’un_Réseau.pdf" target="_blank" class="proof-link">📄 Présentation SAE 1.01 (PDF)</a>',
+        preuves: '<a href="Document/1.01/Partie_Découvrir_les_OS_des_machines_d’un_Réseau.pdf" target="_blank" class="proof-link">📄 Présentation SAE 1.01 (PDF)</a>',
         evaluation: "Cette SAE m'a permis de compléter des connaissances théoriques grâce à de la recherche et de la pratique avec des outils logiciels Linux tout en mettant cette pratique sous forme de notice. Cela m'a relancé dans l'expression orale grâce à la présentation de notre oral préparé grâce à notre pratique, une chose qui n'a pas toujours été le centre de mes occupations, même si je n'ai finalement pas eu de grandes difficultés à présenter mon travail à l'oral.",
         competences: ["Réseau local", "Sécurité informatique", "Outils Linux", "Présentation orale", "Recherche documentaire"],
         status: "completed"
@@ -17,7 +17,7 @@ const projectsData = {
         apprentissage: "Mettre en place des schémas de notre réseau, mise en lien avec la partie IP / Matériel, mise en relation avec le type de lien et de zone réseau (VLAN)",
         sujet: "Création de Schéma, réseau et compte rendu",
         acquis: "J’ai pu apprendre à instancier des OS dans un espace dédier, tout en installant les services réseau nécessaires.<br>J’ai appris à utiliser le logiciel Visio, son installation, sa configuration, l’utilisation de Template de matériels réseau dédié à celui-ci.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/1.02/CR.pdf" target="_blank" class="proof-link">📄 Compte Rendu Projet (PDF)</a><br><a href="/Document/1.02/SchémaLogique.pdf" target="_blank" class="proof-link">📄 Schéma Logique (PDF)</a><br><a href="/Document/1.02/SchémaPhysique.pdf" target="_blank" class="proof-link">📄 Schéma Physique (PDF)</a>',
+        preuves: '<a href="Document/1.02/CR.pdf" target="_blank" class="proof-link">📄 Compte Rendu Projet (PDF)</a><br><a href="/Document/1.02/SchémaLogique.pdf" target="_blank" class="proof-link">📄 Schéma Logique (PDF)</a><br><a href="/Document/1.02/SchémaPhysique.pdf" target="_blank" class="proof-link">📄 Schéma Physique (PDF)</a>',
         evaluation: "Cette SAE m’a pris principalement du temps, j’ai pu avec de la patience acquérir les connaissances nécessaires aux objectifs que je devais remplir, sur la partie Visio / Schéma je n’ai eu aucun problème, utilisant énormément le logiciel pour mettre à jour notre réseau, J’ai pu observer mes erreurs de mise en place et corriger mes petites erreurs. Mais sur la partie service réseau, quelques détails n'étaient pas parfaits comme la mise en place de certaines permissions sur les partages de fichiers. A notre niveau ces erreurs n’étaient pas un problème, elles étaient tout à fait justifiées car un tel travail n’aurait pu, dans la logique, être fait.",
         competences: ["Réseau local", "Sécurité informatique", "Outils Linux", "Recherche documentaire"],
         status: "completed"
@@ -28,7 +28,7 @@ const projectsData = {
         apprentissage: "En équipe de 5 à 6 réaliser les TP en liens avec des domaines différents de la télécommunication et les méthodes de raccordement internet ",
         sujet: "Calcule atténuation et longueur de câble",
         acquis: "J’ai pu apprendre sur l’utilisation de matériel utilisé dans le monde professionnel et des cas de mesures de leur nécessité, les contraintes de certaines configurations d’installation fibre, les perturbations possibles selon certaines situations. En outre, avec notre câble Ethernet/coaxial, certains points intéressants ont pu être découverts sur certaines unités de mesures et leur intérêt.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/1.03/CompteRendu1.03.pdf" target="_blank" class="proof-link">📄 Compte Rendu (PDF)</a>',
+        preuves: '<a href="Document/1.03/CompteRendu1.03.pdf" target="_blank" class="proof-link">📄 Compte Rendu (PDF)</a>',
         evaluation: "Cette SAE m’a permis d’en apprendre plus sur les solutions de raccordement fibre / internet pour les particuliers et / ou les entreprises, cela nous a mis en avant une certaine problématique de perturbation dans le cas d’une installation fibre avec une double bobine fibre. Nous étions dans l’inconnu et cela a poussé une partie de notre équipe dans une certaine difficulté au début du projet, mais nous avons pu, avec du temps et de la recherche, mieux comprendre ce que nous faisions et ce que nous cherchions.",
         competences: ["Fibre Optique", "Connaissance Physique"],
         status: "completed"
@@ -50,7 +50,7 @@ const projectsData = {
         apprentissage: "En binôme avec l’utilisation de langages de programmation web comme le HTML et le JSON pour créer un site affichant les stats du Pokémon demandé et un autre devant faire combattre des Pokémon avec des stats de combat personnalisé",
         sujet: "Atténuation et longueur calbe coaxial et fibre optique",
         acquis: "J’ai acquis de nouvelles connaissances sur le langage web, principalement sur l’intégration de tâches automatisées de requête vers des API et des moyens pour retourner ces informations dans une version modifiée à la demande pour chaque requête vers cette API.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/1.05/site_PokeAPI.zip" target="_blank" class="proof-link">📄 Site Web (.zip / Python) </a>',
+        preuves: '<a href="/Document/1.05/site_PokeAPI.zip" target="_blank" class="proof-link">📄 Site Web (.zip / Python) </a>',
         evaluation: "Cette SAE m’a permis de pousser avec mon collègue nos limites sur le domaine du dev web mais les objectifs étaient trop élevés pour notre niveau et notre domaine dans lequel nous sommes, donc des grandes difficultés et des problèmes se sont posés, Il a fallu énormément de temps pour faire des choses dont nous n’étions même pas sûrs. Cela n’était certes pas facile mais n’est pas forcément obligatoire à créer par nous-mêmes, l’important était de pouvoir remanier ce code pour en modifier son code si besoin.",
         competences: ["Programmation Python", "Language web avancé (JSON)"],
         status: "completed"
@@ -61,7 +61,7 @@ const projectsData = {
         apprentissage: "Mettre en place individuellement un Windows Server 2019 avec les services ADDS et utilisateur / groupe demandés",
         sujet: "Création de Schéma, mise en place services, réseau et compte rendu",
         acquis: "J’ai pu apprendre à utiliser l’espace de virtualisation « proxmox », comment le configurer pour créer des instances de virtualisation pour Windows Server 2019, installer les pilotes pour les périphériques virtuels, installer et utiliser un serveur ADDS pour gérer un domaine réseau, pouvoir connecter un poste sur cet ADDS, créer des utilisateurs, groupes, OU et savoir leur appliquer des règles spécifiques selon les besoins.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/2.01/SAE21_Integration_domaine_ADDS_V1_4.pdf" target="_blank" class="proof-link">📄 Sujet entrainement évaluation (PDF) </a>',
+        preuves: '<a href="Document/2.01/SAE21_Integration_domaine_ADDS_V1_4.pdf" target="_blank" class="proof-link">📄 Sujet entrainement évaluation (PDF) </a>',
         evaluation: "Cette SAE m’a permis de développer mes connaissances Windows et plus précisément sur les services / serveur Windows Server. J’ai pu apprendre à créer et gérer un serveur ADDS, soit un domaine réseau, cela m’a été d’une grande aide étant donné l’importance de ce type de service dans les réseaux de services public et privé. En outre, j’ai pu apprendre à déployer les machines clients sur ce type de réseau / méthode de gestion d’utilisateurs.",
         competences: ["Réseau local", "Sécurité informatique", "Outils Windows", "Recherche documentaire"],
         status: "completed"
@@ -72,7 +72,7 @@ const projectsData = {
         apprentissage: "En binôme, nous devions réaliser des TP en lien avec l’étude de fréquence, plus précisément les ondes courtes, leur fonctionnement, le domaine de la FM.",
         sujet: "Traitement et utilisation des différentes information physique utiliser par la FM",
         acquis: "J’ai pu apprendre les méthodes de diffusion du son et des métadonnées d’une radio, l’utilisation des méthodes d’émission des fréquences pour le mono, stéréo, RDS (métadonnées), la méthode de réception de l’onde radio, la largeur de bande utilisée pour la réception.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/2.02/CRSAE2.02.pdf" target="_blank" class="proof-link">📄 Compte Rendu (PDF) </a>',
+        preuves: '<a href="Document/2.02/CRSAE2.02.pdf" target="_blank" class="proof-link">📄 Compte Rendu (PDF) </a>',
         evaluation: "Cette SAE m’a permis d’apprendre et de comprendre les méthodes de diffusion radio, les différents éléments composant une émission radio, les éléments analogiques qui expliquent le fonctionnement de la FM, ce qui peut être utile pour le faire soi-même dans le futur et, si besoin, émettre localement sa propre radio.",
         competences: ["Maitrise de la FM", "Traitement des informations analogique FM"],
         status: "completed"
@@ -94,7 +94,7 @@ const projectsData = {
         apprentissage: "Travailler l’ensemble des matières dans un projet vaste pour valider l’ensemble des compétences acquises pendant l’année",
         sujet: "Révision général sur l'ensemble des connaissances acquise pendant cette première année de BUT",
         acquis: "J’ai pu retravailler des connaissances acquises au première semestre comme avec à nouveau le même type de projet qu’en SAE 1.02, avec également de la physique et des mathématiques.",
-        preuves: '<a href="Site-Final-SAE-1.06//Document/2.04/SAE24_Volet_Télécom.pdf" target="_blank" class="proof-link">📄 Sujet Physique (PDF) </a><br><a href="/Document/2.04/SAE24MATH_TP2024.pdf" target="_blank" class="proof-link">📄 Sujet Math (PDF) </a><br><a href="/Document/2.04/Installation_Complete_de_GNS3 Debian.pdf" target="_blank" class="proof-link">📄 Notice Service GN3Server (PDF) </a>',
+        preuves: '<a href="Document/2.04/SAE24_Volet_Télécom.pdf" target="_blank" class="proof-link">📄 Sujet Physique (PDF) </a><br><a href="/Document/2.04/SAE24MATH_TP2024.pdf" target="_blank" class="proof-link">📄 Sujet Math (PDF) </a><br><a href="/Document/2.04/Installation_Complete_de_GNS3 Debian.pdf" target="_blank" class="proof-link">📄 Notice Service GN3Server (PDF) </a>',
         evaluation: "Cette SAE m’a permis d’améliorer notre projet réseau du premier semestre avec l’ajout de services Windows ADDS, GNS3server pour des schémas de réseau virtuel avec de nouvelles connaissances et pour la partie math physique j’ai pu apprendre certaines connaissances pour ma prochaine année de BUT via des TP.",
         competences: ["Réseau local", "Sécurité informatique", "Outils Linux", "Outils Windows", "Recherche documentaire", "Connaissances mathématique / physique"],
         status: "completed"
